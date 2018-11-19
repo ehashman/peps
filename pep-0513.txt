@@ -179,8 +179,8 @@ schemes for backward compatibility. The latest symbol versions provided with
 the CentOS 5.11 versions of these libraries are: ::
 
     GLIBC_2.5
-    CXXABI_3.4.8
-    GLIBCXX_3.4.9
+    CXXABI_1.3.1
+    GLIBCXX_3.4.8
     GCC_4.2.0
 
 Therefore, as a consequence of requirement (b), any wheel that depends on
@@ -188,8 +188,8 @@ versioned symbols from the above shared libraries may depend only on symbols
 with the following versions: ::
 
     GLIBC <= 2.5
-    CXXABI <= 3.4.8
-    GLIBCXX <= 3.4.9
+    CXXABI <= 1.3.1
+    GLIBCXX <= 3.4.8
     GCC <= 4.2.0
 
 These recommendations are the outcome of the relevant discussions in January
